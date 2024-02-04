@@ -5,11 +5,18 @@ Simple notifications using mantine notifications with my styled ui for FiveM
 ![image](https://github.com/Mekz1222/md-notify/assets/53654750/10cb14cb-1565-431f-8a5d-4dd83f5a4148)
 
 
+# Configuration
+| Name  | Value type | Description |
+| ------------- | ------------- | ------------- |
+| Config.NotifyTypesEnabled  | boolean (true or false)  | Enables inform/error/success/warning/default or mantine colors, if you want to disable colors and use default color dark set this to false  |
+| Config.DefaultColor  | string or false  | Replace the default color with [Mantine color](https://mantine.dev/theming/colors/#default-colors)  |
+
+
 # Exports
 | Export Name  | Parameter(s) | Type |
 | ------------- | ------------- | ------------- |
-| exports['md-notify']:SendNotify  | Msg/MsgTable, Type, Duration  | Client  |
-| exports['md-notify']:SendNotify   | Source/Player id, Msg/MsgTable, Type, Duration  | Server  |
+| exports['md-notify']:SendNotify  | Msg/MsgTable, Type or mantine color, Duration  | Client  |
+| exports['md-notify']:SendNotify   | Source/Player id, Msg/MsgTable, Type or mantine color, Duration  | Server  |
 
 MsgTable can contain the duration and type, is like ox_lib notify table and i maked it cause compability by replacing the ox_lib function calls.
 
@@ -120,8 +127,37 @@ end
 
 Now available types is success, info, inform, error and warning
 
+Default
+
+![kuva](https://github.com/Mekz1222/md-notify/assets/53654750/0f6e3a45-616c-496a-b5b8-7676ab1ea078)
+
+Success
+
+![kuva](https://github.com/Mekz1222/md-notify/assets/53654750/a9846e92-0561-42db-8f00-933eb345abb6)
+
+Error
+
+![kuva](https://github.com/Mekz1222/md-notify/assets/53654750/29768e10-4b84-45b5-8ee5-16dfc0f2571c)
+
+Info/Inform
+
+![kuva](https://github.com/Mekz1222/md-notify/assets/53654750/108cb6b7-87a3-47e9-95b1-14bda7350a52)
+
+Warning
+
+![kuva](https://github.com/Mekz1222/md-notify/assets/53654750/fe37eb19-2247-4378-9db8-e0b9e5651867)
+
+
+
+
+
 ## Colors
 
 If you dont want to use default types or want to use other color you can use mantine default color scheme. Example. teal.6
 
 [Mantine colors](https://mantine.dev/theming/colors/#default-colors)
+
+Example
+
+![kuva](https://github.com/Mekz1222/md-notify/assets/53654750/91c4ea83-d2f2-462d-8d9f-0563518f6206)
+
