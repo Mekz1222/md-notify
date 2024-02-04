@@ -7,7 +7,7 @@ Simple notifications using mantine notifications with my styled ui for FiveM
 
 # Installation
 
-Please use release versions, cause it is stable version of md-notify. If you want to use master branch you need to build web folder.
+Please use release versions, cause it is stable version of md-notify. If you want to use main branch you need to build web folder.
 
 ## Install the resource
 
