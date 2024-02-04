@@ -13,9 +13,9 @@ Please use release versions, cause it is stable version of md-notify. If you wan
 
 Download the [latest release](https://github.com/Mekz1222/md-notify/releases/latest) .zip file
 
-Extract the .zip to anywhere you want in resources folder
+Open the .zip file from release and drag it to anywhere you want in resources folder
 
-Set ensure to server.cfg before framework (qb-core, qbx_core or es_extended)
+Set ensure md-notify to server.cfg before framework (qb-core, qbx_core or es_extended)
 
 ## Building web
 
