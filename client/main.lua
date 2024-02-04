@@ -1,5 +1,6 @@
 local function SendNotify(text, notifytype, duration)
-    if not Config.NotifyTypesEnabled then notifytype = 'default' end
+    if not Config.NotifyTypesEnabled then notifytype = Config.DefaultColor or 'default' end
+    if not notifytype or notifytype == 'default' then notifytype = Config.DefaultColor or 'default' end
     if type(text) == 'string' then
         SendNUIMessage({
             action = 'notify',
