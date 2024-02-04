@@ -1,8 +1,35 @@
 [![License: GPL v3](https://img.shields.io/badge/License-GPLv3-blue.svg)](https://www.gnu.org/licenses/gpl-3.0)
-# MD Scripts | Notifications
+# MD Scripts | QB, QBOX, ESX, Standalone | Notifications
 Simple notifications using mantine notifications with my styled ui for FiveM
 
 ![image](https://github.com/Mekz1222/md-notify/assets/53654750/10cb14cb-1565-431f-8a5d-4dd83f5a4148)
+
+
+# Installation
+
+Please use release versions, cause it is stable version of md-notify. If you want to use master branch you need to build web folder.
+
+## Install the resource
+
+Download the [latest release](https://github.com/Mekz1222/md-notify/releases/latest) .zip file
+
+Extract the .zip to anywhere you want in resources folder
+
+Set ensure to server.cfg before framework (qb-core, qbx_core or es_extended)
+
+## Building web
+
+Install [NodeJS v20.11.0 LTS](https://nodejs.org/en) if not installed already
+
+Open the md-notify/web folder on cmd
+
+Then run this commands
+
+```bat
+npm install
+
+npm run build
+```
 
 
 # Configuration
