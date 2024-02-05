@@ -29,5 +29,3 @@ local function eventNotify(text, notifyType, duration, subTitle, notifyPosition,
 end
 
 RegisterNetEvent('md-notify:SendNotify', eventNotify)
-
-RegisterNetEvent('QBCore:Notify', eventNotify)
