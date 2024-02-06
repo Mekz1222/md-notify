@@ -26,9 +26,11 @@ Open the md-notify/web folder on cmd
 Then run this commands
 
 ```bat
-npm install
+npm install -g pnpm
 
-npm run build
+pnpm i
+
+pnpm build
 ```
 
 
